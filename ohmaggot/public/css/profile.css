@@ -1,0 +1,100 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #FFD95A;
+    padding: 10px;
+    /* float: right; */
+}
+.navbar .nav-item{ 
+    background-color: #FFF7D4;
+    border-radius: 10px;
+    display: block;
+}
+.navbar a{
+    font-weight: bold;
+    color: black;
+}
+.navbar .profile {
+    border-radius: 50px;
+    color: black;
+    background-color: #FFF7D4;
+}
+
+.navbar a:hover{
+    color: rgb(155, 109, 0);
+}
+
+.navbar-nav {
+    margin-left: 700px;
+}
+
+ .navbar-nav ul {
+    float: right;
+    list-style: none;
+    padding: 20px;
+}
+/* .navbar-nav ul li {
+    text-align: center;
+    float: left;
+}  */
+
+
+
+
+
+.kartu {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* margin-left: 400px; */
+    width: 500px;
+    /* box-shadow: 10px; */
+    background-color:#ffffff;
+}
+
+
+
+/* FOOTER */
+.footer {
+    background-color: #4C3D3D;
+}
+
+.row img {
+    height: 100px;
+}
+
+#footer-center i{
+        background-color: #FFC474;
+        color:white ;
+        font-size: 25px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        margin:10px 15px;
+        vertical-align: middle;
+    
+    
+}
+
+#footer-center p{
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin: 0px;
+    margin-left: 0px;
+}
+#footer-center a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-center p span{
+    display: block;
+    font-weight:normal;
+    font-size:14px;
+    line-height:2;
+}

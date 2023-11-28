@@ -1,0 +1,43 @@
+* {
+    font-family: "Poppins", sans-serif;
+    background: white;
+}
+
+/* Login Admin */
+.header img {
+    width: 13%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.header p {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: #4C3D3D;
+    font-size: 33px;
+    line-height: 25px;
+}
+
+.card {
+    border-color: #4C3D3D;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+.btn {
+    margin-inline: 10px;
+}
+
+/* Add Article */
+.col-2 {
+    background-color: #4C3D3D;
+    width: 300px;
+}
+
+.col-8 .header p {
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 10px;
+}

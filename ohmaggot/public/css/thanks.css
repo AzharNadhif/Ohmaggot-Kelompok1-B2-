@@ -1,0 +1,89 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+    background-color: #FFD95A;
+    padding: 10px;
+}
+.navbar a{
+    font-weight: bold;
+    color: black;
+    background-color: #FFF7D4;
+    border-radius: 10px;
+}
+
+.navbar a:hover{
+    color: rgb(155, 109, 0);
+}
+
+.navbar-nav {
+    margin-left: 700px;
+}
+
+
+
+
+
+.keranjang {
+    height: 200px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.produk {
+    float: left;
+    height: 150px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+    background-color: #4C3D3D;
+}
+
+.row img {
+    height: 100px;
+}
+
+#footer-center i{
+        background-color: #FFC474;
+        color:white ;
+        font-size: 25px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        margin:10px 15px;
+        vertical-align: middle;
+    
+    
+}
+
+#footer-center p{
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin: 0px;
+    margin-left: 0px;
+}
+#footer-center a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-center p span{
+    display: block;
+    font-weight:normal;
+    font-size:14px;
+    line-height:2;
+}

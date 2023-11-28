@@ -1,0 +1,392 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #FFD95A;
+    padding: 10px;
+    /* float: right; */
+}
+.navbar .nav-item{ 
+    background-color: #FFF7D4;
+    border-radius: 10px;
+    display: block;
+}
+.navbar a{
+    font-weight: bold;
+    color: black;
+}
+.navbar .profile {
+    border-radius: 50px;
+    color: black;
+    background-color: #FFF7D4;
+}
+
+.navbar a:hover{
+    color: rgb(155, 109, 0);
+}
+
+.navbar-nav {
+    margin-left: 700px;
+}
+
+ .navbar-nav ul {
+    float: right;
+    list-style: none;
+    padding: 20px;
+}
+/* .navbar-nav ul li {
+    text-align: center;
+    float: left;
+}  */
+
+
+
+
+/* SECTION 1 */
+
+
+.section1 {
+    background-color: #FFD95A;
+}
+
+.section1 h1 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+#demo {
+    margin: auto;
+    width: 1150px;
+    height: 500px;
+    margin-bottom: 100px;
+    /* margin-bottom: 200px; */
+}
+
+
+.carousel-inner {
+    border-radius: 20px ;
+    height: auto;
+}
+
+
+.lengkungan {
+    margin-bottom: 70px;
+    margin-top: -100px;
+}
+
+/* SECTION 2 */
+.section2 {
+    background-color: #FFF7D4;
+}
+
+.singkat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+}
+.card {
+    /* height: 1200px; */
+    height: 350px;
+    width: 900px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 10px;
+    
+}
+.card-title {
+    margin: 10px;
+}
+.card-text {
+    margin: 10px;
+}
+.card-img {
+    border-radius: 0px 5px 0px 0px;
+    margin-left: 1px;
+    margin-top: 50px;
+    width: 237px;
+    /* margin-left: 48px; */
+}
+
+.section2 h1{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.blog-box{
+    width: 300px;
+    background-color: #FFF7D4;
+    /* border: 1px solid; */
+    margin: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: 1px 1px 10px;
+}
+.blog-bos{
+    width: 300px;
+    /* background-color: #FFD95A; */
+    /* border: 1px solid; */
+    margin: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* box-shadow: 1px 1px 10px; */
+}
+.blog-img{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 70px;
+
+}
+
+.blog-img img{
+    height: 90px;
+    margin-top: 50px;
+    object-position: center;
+    margin: auto;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.blog-teks{
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   text-align: justify;
+}
+
+
+/* EFEK ZOOM */
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    /* width: 200px;
+    height: 200px; */
+    margin: 0 auto;
+}
+  
+.zoom:hover {
+    transform: scale(1.05); 
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/* SECTION 3 */
+
+.section3 {
+    background-color: white;
+}
+
+.section3 h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.blog-box {
+    margin-right: auto;
+    margin: auto;
+}
+
+.blog-imeg{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 70px;
+
+}
+
+.blog-imeg img{
+    height: 120px;
+    object-position: center;
+    margin: auto;
+    text-align: center;
+    margin-left: 90px;
+}
+
+.section3 a{
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    background-color:#FFC474;
+    margin-bottom: 130px;
+}
+
+.section3 a:hover {
+    color: white;
+}
+
+.beli{
+    height: 250px;
+    background-color: #FFD95A;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+
+}
+
+.beli .child h1{
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.beli .child a{
+    border-radius: 35px;
+    margin-bottom: 30px;
+    background-color: #FFC474;
+    color: black;
+}
+.beli .child a:hover{
+    color: #ffffff;
+    transition: all ease 0.3s;
+}
+
+
+
+/* SECTION 4 */
+
+.section4 {
+    background-color: #FFF7D4;
+}
+
+.section4 h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.section4 #carouselExampleCaptions {
+    margin: auto;
+    width: 900px;
+    margin-bottom: 200px;
+    /* margin-bottom: 50px; */
+
+}
+#inner2{
+    border-radius: 20px ;
+    height: 500px;
+}
+#inner2 h5, p {
+    color: black;
+}
+#inner2 a{
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center; 
+    background-color:#FFC474;
+    margin-bottom: 30px;
+}
+
+#inner2 a:hover {
+    color: white;
+}
+
+
+/* FOOTER */
+.footer {
+    background-color: #4C3D3D;
+}
+
+.row img {
+    height: 100px;
+}
+
+#footer-center i{
+        background-color: #FFC474;
+        color:white ;
+        font-size: 25px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        margin:10px 15px;
+        vertical-align: middle;
+    
+    
+}
+
+#footer-center p{
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin: 0px;
+    margin-left: 0px;
+}
+#footer-center a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-center p span{
+    display: block;
+    font-weight:normal;
+    font-size:14px;
+    line-height:2;
+}
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVEEEEEEEEEEEEEEEEEEEEEE */
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .section1 h1 {
+        margin-top: 180px;
+    }
+    #demo {
+        margin-top: 20px;
+        width: 400px;
+        height: 500px;
+    }
+    .singkat {
+        margin-bottom: 50px;
+    }
+    .card {
+        margin-top: 150px;
+        margin-bottom: 50px;
+       
+    }
+    .blog-box {
+        margin-top: 50px;
+    }
+    .section4 #carouselExampleCaptions {
+        margin: auto;
+        width: 450px;
+        margin-bottom: 200px;
+        margin-bottom: 50px;
+    
+    }
+}

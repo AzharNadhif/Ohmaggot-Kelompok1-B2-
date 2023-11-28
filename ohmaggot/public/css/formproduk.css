@@ -1,0 +1,29 @@
+/* body */
+body {
+    margin: 0;
+    padding-top: 40px;
+    color: #2e323c;
+    background: #f5f6fa;
+    position: relative;
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* form produk */
+.card-header {
+    background-color: #4C3D3D;
+}
+
+.btn.s {
+    background-color: #C07F00;
+}
+
+.btn.b{
+    background-color: #FEC54B;
+}
+
+.card {
+    box-shadow: 1px 1px 10px;
+}
+
+

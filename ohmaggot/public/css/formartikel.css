@@ -1,0 +1,20 @@
+/* body */
+body {
+    background: #f5f6fa;
+}
+
+.card-header {
+    background-color: #4C3D3D;
+}
+
+.btn.s {
+    background-color: #C07F00;
+}
+
+.btn.b{
+    background-color: #FEC54B;
+}
+
+.card {
+    box-shadow: 1px 1px 10px;
+}

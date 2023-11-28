@@ -1,0 +1,190 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+    background-color: #FFD95A;
+    padding: 10px;
+}
+.navbar a{
+    font-weight: bold;
+    color: black;
+    background-color: #FFF7D4;
+    border-radius: 10px;
+}
+
+.navbar a:hover{
+    color: rgb(155, 109, 0);
+}
+
+.navbar-nav {
+    margin-left: 700px;
+}
+
+
+
+/* ABOUT US */
+.sec1{
+    padding: 5%;
+}
+.card-img-top{
+    height: 238px;
+    width: fit-content;
+}
+
+.sec2 {
+    background-color: #FFF7D4;
+    text-align: center;
+}
+
+.card {
+    /* height: 1200px; */
+    height: 360px;
+    width: 900px;
+    /* margin: 10px; */
+    background-color: #FFD95A;    
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px 0px; */
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.zoommg {
+    margin: 0 auto;
+}
+
+.about-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px 0px; */
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.card2 {
+    margin: 0 auto;
+}
+
+.fitur-img{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 45px;
+
+}
+
+.fitur-img img{
+    height: 90px;
+    margin-top: 50px;
+    object-position: center;
+    margin: auto;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.fitur-teks{
+   padding: 45px;
+   margin-top: -30px;
+   /* width: 50px; */
+   display: flex;
+   flex-direction: column;
+   text-align: justify;
+}
+
+/* EFEK ZOOM */
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    /* width: 200px;
+    height: 200px; */
+    margin: 0 auto;
+}
+  
+.zoom:hover {
+    transform: scale(1.05); 
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+
+/* MAPS */
+.maps{
+    overflow:hidden;
+    /* padding-bottom:56.25%; */
+    position:relative;
+    justify-content: center;
+    align-items: center;
+}
+.map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.peta {
+    height: 400px;
+    width: 700px;
+    border-radius: 20px;
+    margin-left: 220px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 500px; */
+}
+
+
+/* ABOUT US */
+
+
+/* FOOTER */
+.footer {
+    background-color: #4C3D3D;
+}
+
+.row img {
+    height: 100px;
+}
+
+#footer-center i{
+        background-color: #FFC474;
+        color:white ;
+        font-size: 25px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        margin:10px 15px;
+        vertical-align: middle;
+    
+    
+}
+
+#footer-center p{
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin: 0px;
+    margin-left: 0px;
+}
+#footer-center a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-center p span{
+    display: block;
+    font-weight:normal;
+    font-size:14px;
+    line-height:2;
+}
