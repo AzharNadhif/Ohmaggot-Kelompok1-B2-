@@ -100,7 +100,7 @@
               <!--Grid column-->
               <div class="col-lg-4">
                 <h3 style="font-weight: bold; font-size: 35px;">OhMaggot !</h3>
-                <img src="images/logomaggot.png" alt="" class="logo">
+                <img src="{{asset('images/icon/logomaggot.png')}}" alt="" class="logo">
       
                 <p style="color: white;">
                   <br>

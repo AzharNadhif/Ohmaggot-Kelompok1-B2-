@@ -188,8 +188,9 @@
                                                             <h5 class="card-title"><b>Transfer ke akun bank di bawah
                                                                     ini</b></h5>
                                                             <span class="d-block my-2">Akun bank OhMaggot Store</span>
+                                                            <img src="{{asset('images/icon/BCA.png')}}" class="card-image">
                                                             <span
-                                                                class="d-block text-warning font-weight-bold my-2">123-XXXXXXXXXXXXXXXX</span>
+                                                                class="d-block text-warning font-weight-bold my-2">123-2348536</span>
                                                             <p class="card-text">Kami akan memproses pesanan anda setelah anda melakukan pembayaran.<br>Lalu akan memproses pengiriman paket anda hingga sampai ke tujuan</p>
                                                             <br>
                                                             <div class="mb-3">

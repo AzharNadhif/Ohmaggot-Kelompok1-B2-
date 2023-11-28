@@ -365,7 +365,7 @@
                     </table>
 
                     <!-- Modal update artikel -->
-                    <form action="" method="POST" class="contact-form" enctype="multipart/form-data" id="formUpdate">
+                    <form action="" method="POST" class="contact-form" enctype="multipart/form-data" id="formupdate">
                         @method('PUT')
                         @csrf
                         <div class="modal modal-blur fade" id="modal-update" tabindex="-1" role="dialog" aria-hidden="true">
@@ -454,7 +454,7 @@
                                         $('#gambarlama').val(data.gambar); // Set the value of the hidden input
                  
                                         var updateAction = "{{ route('update', ':id') }}".replace(':id', data._id);
-                                        $('#formUpdate').attr('action', updateAction);
+                                        $('#formupdate').attr('action', updateAction);
                                     },
                 
                                     error: function(err) {

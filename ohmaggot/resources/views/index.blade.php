@@ -267,7 +267,7 @@
             </div>
         </div>
         <div class="text-center">
-          <a class="btn btn-lg selengkapnya" href="index_product.html" role="button" style="margin-top: 30px; background-color:#FFC474;"> <b>Lihat Selengkapnya</b></a>
+          <a class="btn btn-lg selengkapnya" href="{{route('product')}}" role="button" style="margin-top: 30px; background-color:#FFC474;"> <b>Lihat Selengkapnya</b></a>
         </div>
        
 
